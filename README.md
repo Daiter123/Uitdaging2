@@ -5,7 +5,7 @@ Dit zijn de startbestanden voor **Uitdaging 2** voor 1ITF van de Thomas More Hog
     <img src="https://www.thomasmore.be/themes/wundertheme/logo.svg" alt="Thomas More Kempen" width="300" />
 </p>
 
-## Stappenplan voor een nieuwe team website op basis van dit project
+## Stappenplan voor een nieuwe team website op basis van dit project!
 
 Werk je met twee of meer teamleden aan hetzelfde project, dan volg je best deze werkwijze. Begin alvast met een teamleader 🎓 aan te duiden en een naam voor het project te kiezen.
 
