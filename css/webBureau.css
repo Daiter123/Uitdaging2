@@ -6,8 +6,9 @@
 
 }
 
-p{
-    font-family: 'Lato';
+*{
+    font-family: 'Lato','Open Sans', serif;
+    color: black;
 }
 
 h1,
@@ -17,7 +18,7 @@ h4,
 h5,
 h6 {
     font-weight: 700;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat' !important;
 }
 
 hr.star-light,
@@ -172,35 +173,35 @@ section .section-title {
     color: #007b5e;
     margin-bottom: 50px;
     text-transform: uppercase;
+
+}
+
+.special-button{
+    background-color: white !important;
+    color: black !important;
+    border: 2px solid #4CAF50 !important; /* Green */
 }
 
 #team .card {
     border: none;
     background: #ffffff;
-}
+    box-shadow: 13px 9px 22px -6px rgba(0,0,0,0.74);
 
-
-.frontside {
-    position: relative;
-    -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    z-index: 2;
-    margin-bottom: 30px;
 }
 
 
 .card,
-.backside .card {
+ .card {
     min-height: 312px;
 }
 
-.backside .card a {
+ .card a {
     font-size: 18px;
     color: #007b5e !important;
 }
 
 .card .card-title,
-.backside .card .card-title {
+ .card .card-title {
     color: #007b5e !important;
 }
 
