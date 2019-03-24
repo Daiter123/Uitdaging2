@@ -234,3 +234,42 @@ section .section-title {
 .teksttekst {
     display: none;
 }
+
+.features-items{
+    overflow: hidden;
+}
+
+.features-area .item .icon i {
+    background: #ffffff none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    color: #ffaf5a;
+    display: inline-block;
+    font-size: 30px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    z-index: 1;
+}
+
+.features-area .item .icon {
+    margin-bottom: 40px;
+}
+
+.features-area h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.features-area .item .info h4 {
+     font-weight: 600;
+     text-transform: capitalize;
+     font-size: 25px;
+ }
