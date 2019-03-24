@@ -226,3 +226,10 @@ section .section-title {
     height: auto;
 }
 
+.teksttekst:hover{
+    display: initial !important;
+}
+
+.teksttekst {
+    display: none;
+}
