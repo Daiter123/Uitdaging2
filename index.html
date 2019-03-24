@@ -79,6 +79,48 @@
   </div>
 </section>
 
+
+
+
+<section id="team" class="pb-3 content-section bg-primary text-center">
+  <div class="container">
+    <h5 class="section-title h1">Ons Team</h5>
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="card">
+                <div class="card-body text-center">
+                  <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
+                  <h4 class="card-title">Wout Bertels</h4>
+                  <p class="card-text">21 jaar, Klantendienst</p>
+                </div>
+              </div>
+            </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="card">
+                <div class="card-body text-center">
+                  <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
+                  <h4 class="card-title">Dries Janssen</h4>
+                  <p class="card-text">19 jaar, Webdesign</p>
+                </div>
+              </div>
+            </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+
+              <div class="card">
+                <div class="card-body text-center">
+                  <p><img class=" img-fluid" src="Afbeeldingen/ArneGeknipte.JPG" alt="card image"></p>
+                  <h4 class="card-title">Arne Dauwe</h4>
+                  <p class="card-text">20 jaar, Webdesign</p>
+                </div>
+              </div>
+            </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- Services -->
 <section class="content-section bg-primary text-white text-center" id="services">
   <div class="container">
@@ -194,6 +236,9 @@
   </div>
 </section>
 
+
+
+
 <!-- Call to Action -->
 <section class="content-section bg-primary text-white">
   <div class="container text-center">
@@ -204,15 +249,67 @@
 </section>
 
 <!-- Map -->
-<section id="contact" class="map">
-  <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-          src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-  <br/>
-  <small>
-    <a
-      href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-  </small>
+<!--<section id="contact" class="map">-->
+  <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"-->
+          <!--src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>-->
+  <!--<br/>-->
+  <!--<small>-->
+    <!--<a-->
+      <!--href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>-->
+  <!--</small>-->
+<!--</section>-->
+
+
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <h2 class="text-center text-uppercase text-secondary mb-0">Contacteer ons</h2>
+    <hr class="star-dark mb-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+        <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+        <form action="voorbeeld.php" method="post">
+          <p>
+            <label for="naam">Naam<sup>*</sup></label>
+            <input type="text" id="naam" size="15" maxlength="20" name="gebruikersnaam"
+                   placeholder="typ hier je naam"
+                   autofocus required>
+          </p>
+
+
+          <p><label for="email">Email<sup>*</sup></label>
+            <input type="email" id="email" name="email" required></p>
+
+
+          <p>
+            <label for="opmerking">Graag hier uw opmerkingen:</label>
+          </p>
+          <p>
+            <textarea rows="5" cols="25" id="opmerking" name="feedback"> </textarea>
+          </p>
+
+
+          <p>
+            <input type="submit" value="verzenden">
+          </p>
+
+
+
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
+
+
+
+
+
+
+
+
 
 <!-- Footer -->
 <footer class="footer text-center">
